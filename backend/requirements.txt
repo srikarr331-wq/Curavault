@@ -1,0 +1,50 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+SQLAlchemy==2.0.23
+alembic==1.13.0
+psycopg2-binary==2.9.9
+
+# Data Validation & Serialization
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+cryptography==41.0.7
+
+# Caching & Search
+redis==5.0.1
+elasticsearch==8.11.0
+
+# File & Image Processing
+Pillow==10.1.0
+pdfplumber==0.10.3
+
+# API Documentation
+python-multipart==0.0.6
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+
+# Email
+email-validator==2.1.0
+MailerSend==2.0.0
+
+# AWS S3
+boto3==1.29.7
+
+# Utilities
+python-dateutil==2.8.2
+requests==2.31.0
